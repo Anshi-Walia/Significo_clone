@@ -1,0 +1,98 @@
+:root{
+  --black: #000;
+  --light_blue:#AEDEE0;
+  --light_orange:#EF9D71;
+  --white: #fff;
+  --yellow: #f5f19c;
+
+}
+.real_btn {
+  position: sticky;
+  top: 20px; /* jitna upar chahiye */
+  z-index: 100;
+}
+
+
+.vdosec {
+  clip-path: circle(var(--clip) at 50% 50%);
+}
+body{
+  transition: background-color ease-out .5s;
+}
+*::selection{
+    background-color: var(--light_orange);
+    color:  var(--white);
+}
+.btmtext::selection{background-color: var(--light_orange);
+  color:  var(--white);
+}
+    
+.real::selection{ 
+  background-color: var(--light_orange);
+  color:  var(--white);
+}
+.craft::selection{ 
+  background-color: var(--light_orange);
+  color: white;
+}
+body[theme="black"]{
+    background-color:var(--black);
+    color: var(--white);
+}
+.discover[theme = "yellow"]{
+  background-color: var(--yellow);
+  color: var(--black);
+}
+body[theme="light_blue"]{
+    background-color: var(--light_blue);
+}
+
+body[theme="light_orange"]{
+    background-color: var(--light_orange);
+}
+
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="yellow"]{
+    background-color: var(--yellow);
+    color: #000;
+}
+@font-face {
+  font-family: 'Pp_Neue_Machina';
+  src: url('./fonts/Pp_Neue_Machina.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('./fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('./fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('./fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pp_Neue_Machina';
+  src: url('./fonts/Pp_Neue_Machina_\ Light.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+.font-machina {
+  font-family: 'Pp_Neue_Machina', sans-serif;
+}
+.font-santoshi {
+  font-family: 'Satoshi-Variable';
+}
+
