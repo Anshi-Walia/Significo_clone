@@ -111,8 +111,7 @@ gsap.to(".textPara span", {
     trigger: ".grid",
     start: "top 40%",
     end: "bottom 50%",
-    scrub: 0.1,
-    // markers: true,
+    scrub: 0.1
   },
   opacity: 1,
   stagger: 0.03,
