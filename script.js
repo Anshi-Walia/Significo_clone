@@ -52,7 +52,6 @@ function realBtnAnimation(){
     pin: realBtn,
     pinSpacing: true, // ✅ spacing allow karo
     scrub: true,
-    markers: true,
   });
 }
 
